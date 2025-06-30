@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import Layout from '@/components/organisms/Layout'
+import Landing from '@/components/pages/Landing'
 import Dashboard from '@/components/pages/Dashboard'
 import Patients from '@/components/pages/Patients'
 import PatientDetail from '@/components/pages/PatientDetail'
@@ -12,9 +13,10 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen bg-background">
-        <Layout>
+<Layout>
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/" element={<Landing />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/patients" element={<Patients />} />
             <Route path="/patients/:id" element={<PatientDetail />} />
             <Route path="/agenda" element={<Agenda />} />
