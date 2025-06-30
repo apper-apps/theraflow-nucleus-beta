@@ -238,11 +238,11 @@ const benefits = [
 >
               {t('landing.cta.buttons.startTrial')}
             </Button>
-            <Button 
+<Button 
               variant="outline" 
               size="xl"
               icon="Phone"
-              className="border-white text-white hover:bg-white/10"
+              className="border-gray-300 text-gray-700 bg-white/90 hover:bg-white hover:text-gray-900"
             >
               {t('landing.cta.buttons.scheduleDemo')}
             </Button>
