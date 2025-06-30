@@ -1,0 +1,55 @@
+{
+  "landing": {
+    "hero": {
+      "badge": "Transform Your Practice",
+      "title": "Save Hours Daily with",
+      "titleHighlight": "TheraFlow",
+      "subtitle": "The complete practice management solution designed specifically for therapists. Streamline scheduling, automate notes, and focus on what matters most - your patients.",
+      "ctaPrimary": "See Pricing",
+      "ctaSecondary": "View Demo",
+      "trustIndicators": {
+        "hipaa": "HIPAA Compliant",
+        "rating": "4.9/5 Rating",
+        "users": "5000+ Therapists"
+      },
+      "dashboardPreview": "Dashboard Preview",
+      "dashboardSubtitle": "Real-time practice insights",
+      "sessionComplete": "Session Complete",
+      "timeSaved": "2.5h Saved Today"
+    },
+    "benefits": {
+      "title": "Why Therapists Choose TheraFlow",
+      "subtitle": "Join thousands of therapists who have transformed their practice efficiency",
+      "items": {
+        "timeSaving": {
+          "title": "Save 2+ Hours Daily",
+          "description": "Automated scheduling and note-taking reduce administrative tasks by up to 70%"
+        },
+        "patientCare": {
+          "title": "Better Patient Care",
+          "description": "Spend more time with patients and less time on paperwork and data entry"
+        },
+        "growth": {
+          "title": "Practice Growth",
+          "description": "Advanced analytics help optimize your schedule and increase revenue potential"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Practice?",
+      "subtitle": "Start saving hours every day with TheraFlow's comprehensive practice management solution.",
+      "pricing": {
+        "price": "$49",
+        "period": "per month",
+        "trial": "14-day",
+        "trialText": "free trial",
+        "support": "24/7",
+        "supportText": "support"
+      },
+      "buttons": {
+        "startTrial": "Start Free Trial",
+        "scheduleDemo": "Schedule Demo"
+      }
+    }
+  }
+}

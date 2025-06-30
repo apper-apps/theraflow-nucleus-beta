@@ -1,0 +1,55 @@
+{
+  "landing": {
+    "hero": {
+      "badge": "Transformez Votre Cabinet",
+      "title": "Économisez des Heures Quotidiennes avec",
+      "titleHighlight": "TheraFlow",
+      "subtitle": "La solution complète de gestion de cabinet conçue spécifiquement pour les thérapeutes. Simplifiez la planification, automatisez les notes et concentrez-vous sur l'essentiel - vos patients.",
+      "ctaPrimary": "Voir les Tarifs",
+      "ctaSecondary": "Voir la Démo",
+      "trustIndicators": {
+        "hipaa": "Conforme HIPAA",
+        "rating": "Note 4,9/5",
+        "users": "5000+ Thérapeutes"
+      },
+      "dashboardPreview": "Aperçu du Tableau de Bord",
+      "dashboardSubtitle": "Informations pratiques en temps réel",
+      "sessionComplete": "Séance Terminée",
+      "timeSaved": "2,5h Économisées Aujourd'hui"
+    },
+    "benefits": {
+      "title": "Pourquoi les Thérapeutes Choisissent TheraFlow",
+      "subtitle": "Rejoignez des milliers de thérapeutes qui ont transformé l'efficacité de leur cabinet",
+      "items": {
+        "timeSaving": {
+          "title": "Économisez 2+ Heures par Jour",
+          "description": "La planification automatisée et la prise de notes réduisent les tâches administratives jusqu'à 70%"
+        },
+        "patientCare": {
+          "title": "Meilleurs Soins aux Patients",
+          "description": "Passez plus de temps avec vos patients et moins de temps sur la paperasserie et la saisie de données"
+        },
+        "growth": {
+          "title": "Croissance du Cabinet",
+          "description": "Les analyses avancées aident à optimiser votre planning et augmenter le potentiel de revenus"
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à Transformer Votre Cabinet ?",
+      "subtitle": "Commencez à économiser des heures chaque jour avec la solution complète de gestion de cabinet TheraFlow.",
+      "pricing": {
+        "price": "49€",
+        "period": "par mois",
+        "trial": "14 jours",
+        "trialText": "d'essai gratuit",
+        "support": "24/7",
+        "supportText": "support"
+      },
+      "buttons": {
+        "startTrial": "Commencer l'Essai Gratuit",
+        "scheduleDemo": "Planifier une Démo"
+      }
+    }
+  }
+}

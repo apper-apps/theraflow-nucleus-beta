@@ -1,32 +1,34 @@
 import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import Button from '@/components/atoms/Button'
 import Card from '@/components/atoms/Card'
 import ApperIcon from '@/components/ApperIcon'
 
 const Landing = () => {
   const navigate = useNavigate()
+  const { t } = useTranslation()
 
   const handleSeePricing = () => {
     // Navigate to pricing section or external pricing page
     window.scrollTo({ top: document.getElementById('pricing')?.offsetTop || 0, behavior: 'smooth' })
   }
 
-  const benefits = [
+const benefits = [
     {
       icon: 'Clock',
-      title: 'Save 2+ Hours Daily',
-      description: 'Automated scheduling and note-taking reduce administrative tasks by up to 70%'
+      title: t('landing.benefits.items.timeSaving.title'),
+      description: t('landing.benefits.items.timeSaving.description')
     },
     {
       icon: 'Users',
-      title: 'Better Patient Care',
-      description: 'Spend more time with patients and less time on paperwork and data entry'
+      title: t('landing.benefits.items.patientCare.title'),
+      description: t('landing.benefits.items.patientCare.description')
     },
     {
       icon: 'BarChart3',
-      title: 'Practice Growth',
-      description: 'Advanced analytics help optimize your schedule and increase revenue potential'
+      title: t('landing.benefits.items.growth.title'),
+      description: t('landing.benefits.items.growth.description')
     }
   ]
 
@@ -49,21 +51,20 @@ const Landing = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="lg:pr-8"
             >
-              <div className="mb-6">
+<div className="mb-6">
                 <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary">
                   <ApperIcon name="Sparkles" size={14} className="mr-2" />
-                  Transform Your Practice
+                  {t('landing.hero.badge')}
                 </span>
               </div>
               
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                Save Hours Daily with
-                <span className="text-primary block">TheraFlow</span>
+<h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                {t('landing.hero.title')}
+                <span className="text-primary block">{t('landing.hero.titleHighlight')}</span>
               </h1>
               
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                The complete practice management solution designed specifically for therapists. 
-                Streamline scheduling, automate notes, and focus on what matters most - your patients.
+                {t('landing.hero.subtitle')}
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -73,8 +74,8 @@ const Landing = () => {
                   icon="DollarSign"
                   onClick={handleSeePricing}
                   className="shadow-xl hover:shadow-2xl"
-                >
-                  See Pricing
+>
+                  {t('landing.hero.ctaPrimary')}
                 </Button>
                 <Button 
                   variant="outline" 
@@ -82,23 +83,23 @@ const Landing = () => {
                   icon="Play"
                   onClick={() => navigate('/dashboard')}
                 >
-                  View Demo
+                  {t('landing.hero.ctaSecondary')}
                 </Button>
               </div>
 
               {/* Trust Indicators */}
-              <div className="flex items-center gap-6 text-sm text-gray-500">
+<div className="flex items-center gap-6 text-sm text-gray-500">
                 <div className="flex items-center gap-2">
                   <ApperIcon name="Shield" size={16} className="text-green-600" />
-                  HIPAA Compliant
+                  {t('landing.hero.trustIndicators.hipaa')}
                 </div>
                 <div className="flex items-center gap-2">
                   <ApperIcon name="Star" size={16} className="text-yellow-500" />
-                  4.9/5 Rating
+                  {t('landing.hero.trustIndicators.rating')}
                 </div>
                 <div className="flex items-center gap-2">
                   <ApperIcon name="Users" size={16} className="text-blue-600" />
-                  5000+ Therapists
+                  {t('landing.hero.trustIndicators.users')}
                 </div>
               </div>
             </motion.div>
@@ -114,9 +115,9 @@ const Landing = () => {
                 <Card variant="elevated" className="p-0 overflow-hidden">
                   <div className="aspect-[4/3] bg-gradient-to-br from-primary/5 to-sage-100 flex items-center justify-center">
                     <div className="text-center p-8">
-                      <ApperIcon name="Activity" size={80} className="text-primary mx-auto mb-4" />
-                      <h3 className="text-xl font-semibold text-gray-800 mb-2">Dashboard Preview</h3>
-                      <p className="text-gray-600">Real-time practice insights</p>
+<ApperIcon name="Activity" size={80} className="text-primary mx-auto mb-4" />
+                      <h3 className="text-xl font-semibold text-gray-800 mb-2">{t('landing.hero.dashboardPreview')}</h3>
+                      <p className="text-gray-600">{t('landing.hero.dashboardSubtitle')}</p>
                     </div>
                   </div>
                 </Card>
@@ -129,9 +130,9 @@ const Landing = () => {
                 className="absolute -top-4 -right-4 z-20"
               >
                 <Card variant="elevated" className="p-4 bg-white shadow-xl">
-                  <div className="flex items-center gap-3">
+<div className="flex items-center gap-3">
                     <ApperIcon name="CheckCircle" size={20} className="text-green-600" />
-                    <span className="text-sm font-medium">Session Complete</span>
+                    <span className="text-sm font-medium">{t('landing.hero.sessionComplete')}</span>
                   </div>
                 </Card>
               </motion.div>
@@ -142,9 +143,9 @@ const Landing = () => {
                 className="absolute -bottom-4 -left-4 z-20"
               >
                 <Card variant="elevated" className="p-4 bg-white shadow-xl">
-                  <div className="flex items-center gap-3">
+<div className="flex items-center gap-3">
                     <ApperIcon name="Clock" size={20} className="text-blue-600" />
-                    <span className="text-sm font-medium">2.5h Saved Today</span>
+                    <span className="text-sm font-medium">{t('landing.hero.timeSaved')}</span>
                   </div>
                 </Card>
               </motion.div>
@@ -161,12 +162,12 @@ const Landing = () => {
         className="px-6 py-16 bg-white/80 backdrop-blur-sm"
       >
         <div className="mx-auto max-w-7xl">
-          <div className="text-center mb-12">
+<div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Therapists Choose TheraFlow
+              {t('landing.benefits.title')}
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Join thousands of therapists who have transformed their practice efficiency
+              {t('landing.benefits.subtitle')}
             </p>
           </div>
           
@@ -204,26 +205,26 @@ const Landing = () => {
         className="px-6 py-16 bg-gradient-to-r from-primary to-primary/90"
       >
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-            Ready to Transform Your Practice?
+<h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+            {t('landing.cta.title')}
           </h2>
           <p className="text-xl text-primary-50 mb-8 max-w-2xl mx-auto">
-            Start saving hours every day with TheraFlow's comprehensive practice management solution.
+            {t('landing.cta.subtitle')}
           </p>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-white">
-              <div>
-                <div className="text-3xl font-bold">$49</div>
-                <div className="text-primary-100">per month</div>
+<div>
+                <div className="text-3xl font-bold">{t('landing.cta.pricing.price')}</div>
+                <div className="text-primary-100">{t('landing.cta.pricing.period')}</div>
               </div>
               <div>
-                <div className="text-3xl font-bold">14-day</div>
-                <div className="text-primary-100">free trial</div>
+                <div className="text-3xl font-bold">{t('landing.cta.pricing.trial')}</div>
+                <div className="text-primary-100">{t('landing.cta.pricing.trialText')}</div>
               </div>
               <div>
-                <div className="text-3xl font-bold">24/7</div>
-                <div className="text-primary-100">support</div>
+                <div className="text-3xl font-bold">{t('landing.cta.pricing.support')}</div>
+                <div className="text-primary-100">{t('landing.cta.pricing.supportText')}</div>
               </div>
             </div>
           </div>
@@ -234,8 +235,8 @@ const Landing = () => {
               size="xl"
               icon="ArrowRight"
               className="bg-white text-primary hover:bg-white/90 shadow-xl"
-            >
-              Start Free Trial
+>
+              {t('landing.cta.buttons.startTrial')}
             </Button>
             <Button 
               variant="outline" 
@@ -243,7 +244,7 @@ const Landing = () => {
               icon="Phone"
               className="border-white text-white hover:bg-white/10"
             >
-              Schedule Demo
+              {t('landing.cta.buttons.scheduleDemo')}
             </Button>
           </div>
         </div>
