@@ -15,10 +15,10 @@ const Button = ({
 }) => {
   const baseClasses = 'inline-flex items-center justify-center font-medium rounded-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed'
   
-  const variants = {
+const variants = {
     primary: 'bg-primary hover:bg-primary/90 text-white focus:ring-primary/20 hover:shadow-gentle',
     secondary: 'bg-secondary hover:bg-sage-200 text-sage-700 focus:ring-sage-200',
-    outline: 'border border-sage-300 bg-white hover:bg-sage-50 text-sage-700 focus:ring-sage-200',
+    outline: 'border border-sage-300 bg-white hover:bg-sage-50 text-sage-700 focus:ring-sage-200 active:bg-sage-700 active:text-white',
     ghost: 'text-sage-600 hover:bg-sage-100 hover:text-sage-800 focus:ring-sage-200',
     success: 'bg-green-600 hover:bg-green-700 text-white focus:ring-green-200',
     danger: 'bg-red-600 hover:bg-red-700 text-white focus:ring-red-200'
