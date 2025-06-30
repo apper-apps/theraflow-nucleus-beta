@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "patientId": 1,
+    "date": "2024-01-15T10:00:00.000Z",
+    "duration": 60,
+    "type": "Hypnose",
+    "status": "completed",
+    "notes": "Séance axée sur la gestion de l'anxiété. Excellente réceptivité.",
+    "reminderSent": true
+  },
+  {
+    "Id": 2,
+    "patientId": 2,
+    "date": "2024-01-15T14:30:00.000Z",
+    "duration": 60,
+    "type": "Sophrologie",
+    "status": "completed",
+    "notes": "Techniques de respiration et relaxation progressive.",
+    "reminderSent": true
+  },
+  {
+    "Id": 3,
+    "patientId": 3,
+    "date": "2024-01-16T09:00:00.000Z",
+    "duration": 45,
+    "type": "Hypnose",
+    "status": "scheduled",
+    "notes": "Travail sur la phobie de l'avion en vue du voyage prévu.",
+    "reminderSent": false
+  },
+  {
+    "Id": 4,
+    "patientId": 4,
+    "date": "2024-01-16T16:00:00.000Z",
+    "duration": 90,
+    "type": "Naturopathie",
+    "status": "scheduled",
+    "notes": "Consultation complète avec bilan alimentaire.",
+    "reminderSent": false
+  },
+  {
+    "Id": 5,
+    "patientId": 5,
+    "date": "2024-01-17T11:00:00.000Z",
+    "duration": 60,
+    "type": "Sophrologie",
+    "status": "scheduled",
+    "notes": "Séance de renforcement de la confiance en soi.",
+    "reminderSent": false
+  },
+  {
+    "Id": 6,
+    "patientId": 1,
+    "date": "2024-01-12T10:00:00.000Z",
+    "duration": 60,
+    "type": "Hypnose",
+    "status": "completed",
+    "notes": "Suivi régulier. Patiente très détendue après la séance.",
+    "reminderSent": true
+  },
+  {
+    "Id": 7,
+    "patientId": 7,
+    "date": "2024-01-18T14:00:00.000Z",
+    "duration": 75,
+    "type": "Naturopathie",
+    "status": "scheduled",
+    "notes": "Suivi du protocole ménopause avec adaptations.",
+    "reminderSent": false
+  },
+  {
+    "Id": 8,
+    "patientId": 8,
+    "date": "2024-01-19T17:30:00.000Z",
+    "duration": 60,
+    "type": "Hypnose",
+    "status": "scheduled",
+    "notes": "Préparation aux examens de fin d'année.",
+    "reminderSent": false
+  },
+  {
+    "Id": 9,
+    "patientId": 2,
+    "date": "2024-01-10T14:30:00.000Z",
+    "duration": 60,
+    "type": "Sophrologie",
+    "status": "completed",
+    "notes": "Techniques avancées de gestion du stress professionnel.",
+    "reminderSent": true
+  },
+  {
+    "Id": 10,
+    "patientId": 6,
+    "date": "2024-01-13T19:00:00.000Z",
+    "duration": 60,
+    "type": "Relaxation",
+    "status": "cancelled",
+    "notes": "Patient indisponible - report demandé.",
+    "reminderSent": true
+  }
+]

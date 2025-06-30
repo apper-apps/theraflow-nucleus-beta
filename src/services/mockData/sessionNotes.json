@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "patientId": 1,
+    "appointmentId": 1,
+    "date": "2024-01-15T10:00:00.000Z",
+    "content": "Séance d'hypnose axée sur la gestion de l'anxiété généralisée. Marie s'est montrée très réceptive dès l'induction. Nous avons travaillé sur la technique de l'ancrage positif avec une image de calme et de sérénité (jardin zen). Suggestions post-hypnotiques pour activer cet état de calme dans les situations stressantes du quotidien. La patiente a rapporté une sensation de détente profonde et une diminution notable de ses tensions physiques. À poursuivre avec des séances de renforcement.",
+    "template": "Hypnose",
+    "attachments": []
+  },
+  {
+    "Id": 2,
+    "patientId": 2,
+    "appointmentId": 2,
+    "date": "2024-01-15T14:30:00.000Z",
+    "content": "Séance de sophrologie centrée sur les techniques de respiration et la relaxation progressive de Jacobson. Pierre a montré une excellente implication dans les exercices. Nous avons particulièrement travaillé la respiration abdominale pour réduire le stress professionnel. Introduction de la technique de visualisation positive pour préparer ses présentations en entreprise. Le patient rapporte déjà une amélioration de son sommeil suite à la pratique quotidienne des exercices enseignés lors de la séance précédente.",
+    "template": "Sophrologie",
+    "attachments": []
+  },
+  {
+    "Id": 3,
+    "patientId": 4,
+    "appointmentId": null,
+    "date": "2024-01-12T16:00:00.000Z",
+    "content": "Consultation de naturopathie approfondie avec Jean. Analyse détaillée de son régime alimentaire actuel et identification des aliments déclencheurs de ses troubles digestifs. Recommandations personnalisées : élimination temporaire du gluten et des produits laitiers, introduction de probiotiques naturels (kéfir, choucroute). Conseil en phytothérapie avec tisanes de camomille et mélisse pour apaiser l'inflammation intestinale. Plan alimentaire sur 3 semaines avec suivi hebdomadaire. Le patient est très motivé pour appliquer ces changements lifestyle.",
+    "template": "Naturopathie",
+    "attachments": []
+  },
+  {
+    "Id": 4,
+    "patientId": 5,
+    "appointmentId": null,
+    "date": "2024-01-10T11:00:00.000Z",
+    "content": "Séance de sophrologie dédiée au renforcement de la confiance en soi post-partum. Amélie a exprimé ses difficultés à concilier vie professionnelle et maternelle. Travail sur l'acceptation de soi et la valorisation de ses compétences de mère et de professionnelle. Exercices de sophrologie adaptés qu'elle peut pratiquer même avec les enfants présents. Technique de la bulle de protection pour créer un espace personnel de ressourcement. Amélie a particulièrement apprécié l'exercice de visualisation positive de sa journée idéale.",
+    "template": "Sophrologie",
+    "attachments": []
+  },
+  {
+    "Id": 5,
+    "patientId": 8,
+    "appointmentId": null,
+    "date": "2024-01-08T17:30:00.000Z",
+    "content": "Première séance d'hypnose avec Lucas pour traiter son anxiété sociale et ses attaques de panique. Anamnèse détaillée révélant que l'anxiété s'intensifie particulièrement avant les examens et les présentations orales. Induction douce réussie malgré l'appréhension initiale. Travail sur la désensibilisation progressive avec visualisation d'une situation d'examen en état de calme. Installation d'un signal d'ancrage (pression du pouce et de l'index) pour déclencher l'état de détente. Lucas a été surpris par l'efficacité immédiate et souhaite poursuivre le suivi.",
+    "template": "Hypnose",
+    "attachments": []
+  },
+  {
+    "Id": 6,
+    "patientId": 3,
+    "appointmentId": null,
+    "date": "2024-01-05T09:00:00.000Z",
+    "content": "Séance d'hypnose spécialisée dans le traitement des phobies. Sophie présente une phobie sévère de l'avion qui l'empêche de voyager. Utilisation de la technique de la double dissociation pour diminuer l'intensité émotionnelle liée aux situations phobogènes. Reconstruction progressive de l'expérience de vol avec des suggestions de calme et de sécurité. Travail sur les sons, odeurs et sensations de l'avion transformés en éléments rassurants. Sophie a montré une excellente réceptivité et rapporte déjà une diminution de l'anxiété à l'évocation du voyage prévu dans 2 mois.",
+    "template": "Hypnose",
+    "attachments": []
+  },
+  {
+    "Id": 7,
+    "patientId": 7,
+    "appointmentId": null,
+    "date": "2024-01-03T14:00:00.000Z",
+    "content": "Consultation de naturopathie pour accompagner Isabelle dans sa période de ménopause. Évaluation complète de ses symptômes : bouffées de chaleur fréquentes, troubles du sommeil, irritabilité. Recommandations phytothérapeutiques avec sauge sclarée pour les bouffées de chaleur et valériane pour améliorer la qualité du sommeil. Conseils nutritionnels : augmentation des phytoestrogènes (soja, lin), réduction des excitants. Introduction de techniques de respiration pour gérer les bouffées de chaleur en temps réel. Isabelle apprécie l'approche naturelle complémentaire à son traitement médical.",
+    "template": "Naturopathie",
+    "attachments": []
+  }
+]
